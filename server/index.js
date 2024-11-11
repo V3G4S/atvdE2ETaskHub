@@ -10,7 +10,7 @@ const swaggerDocument = YAML.load('./docs/auth.yaml'); // O caminho para o seu a
 
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 
 connectDB();
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
