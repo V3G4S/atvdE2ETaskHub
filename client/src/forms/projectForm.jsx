@@ -98,7 +98,7 @@ const ProjectForm = ({ onSubmit, project = null }) => {
           ))}
         </select>
       </div>
-      <div className="mb-4">
+      <div className="mb-4" data-cy= 'id-seletor'>
         <label className="block text-gray-700 font-bold mb-2" htmlFor="members">
           Managers
         </label>
@@ -109,7 +109,7 @@ const ProjectForm = ({ onSubmit, project = null }) => {
           loadOptions={FormattedUsers}
         />
       </div>
-      <div className="mb-4">
+      <div className="mb-4" data-cy= 'id-seletorMembers'>
         <label className="block text-gray-700 font-bold mb-2" htmlFor="members">
           Members
         </label>
@@ -121,6 +121,7 @@ const ProjectForm = ({ onSubmit, project = null }) => {
         />
       </div>
       <Button
+        id="submit2"
         className="px-2 py-1 bg-gray-800 text-white rounded-lg"
         type="submit"
       >

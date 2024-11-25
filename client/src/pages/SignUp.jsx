@@ -131,7 +131,7 @@ const Signup = () => {
               required
             />
           </div>
-          <Button type="submit" className="px-2 py-1 bg-gray-800 text-white rounded-lg">Sign Up</Button>
+          <Button id="submit" type="submit" className="px-2 py-1 bg-gray-800 text-white rounded-lg">Sign Up</Button>
           <OAuth />
           <div className="flex gap-2 text-sm">
             <span>Already have an account?</span>

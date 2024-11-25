@@ -112,11 +112,12 @@ const SignInPage = () => {
           </div>
           <div className="flex gap-2 text-sm">
             <span>Dont have an account?</span>
-            <Link to="/signup" className="text-blue-500">
+            <Link id="cadastro" to="/signup" className="text-blue-500">
               Sign Up
             </Link>
           </div>
           <Button
+            id="submit"
             type="submit"
             className="px-2 py-1 bg-gray-800 text-white rounded-lg"
           >
